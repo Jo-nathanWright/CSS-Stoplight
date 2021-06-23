@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#Bar{
+    height: 200px;
+    width: 120px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#Box{
+    height: 600px;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 2em;
+    z-index: 2;
+}
+.light{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-image: url("dots.png");
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.RLight{
+    background-color: red;
+}
+
+.YLight{
+    background-color: yellow;
+}
+
+.GLight{
+    background-color: rgb(11, 190, 11);
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.RLight:hover{
+    filter: drop-shadow(1px 0px 20px red);
+}
+
+.YLight:hover{
+    filter: drop-shadow(1px 0px 20px yellow);
+}
+
+.GLight:hover{
+    filter: drop-shadow(1px 0px 20px rgb(11, 190, 11));
+}
