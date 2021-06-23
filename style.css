@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     padding-top: 2em;
     z-index: 2;
+    border-radius: 8%;
 }
 .light{
     height: 175px;
